@@ -1,5 +1,7 @@
 <h1>Jogo do número secreto</h1>
 
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
 <h2>Sobre</h2>
 <p>Projeto utilizado nos cursos de lógica de programação da Alura.</p>
 
@@ -12,4 +14,5 @@
 
 ## Time
 
-<img loading="lazy" src="https://avatars.githubusercontent.com/u/148992172?v=4" width=115><br><sub>Tati Scandarolli</sub>
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/148992172?v=4" width=115><br><sub>Tati Scandarolli</sub>](https://github.com/TatiScandarolli) |
+| :---: | 
