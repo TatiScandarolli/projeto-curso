@@ -1,0 +1,49 @@
+## Criando branch
+
+Inicialmente utilizamos o seguinte comando para criarmos uma branch e acessá-la
+`git checkout -b "nome-da-branch"`
+
+Após realizar alterações em um ou mais arquivos, utilizar o comando `git add .`
+
+Para confirmar as alterações, pode utilizar o comando `git status`, vai exibir os arquivos alterados na cor verde.
+
+Assim podemos fazer o commit inserindo sempre um breve comentário da alteração `git commit -m "comentário de alteração aqui"`
+
+Feito isso, precisamos subir as alterações da branch para o remoto `git push origin nome-da-branch`
+
+
+## Abrir uma pull request
+
+* Após o comando `git push origin nome-da-branch`, abriremos o repositório via web. 
+
+![image](https://github.com/TatiScandarolli/projeto-curso/assets/148992172/636e0386-7e48-434b-856e-4108bbde34c2)
+
+* Clicar em `Compare & pull request`
+
+![image](https://github.com/TatiScandarolli/projeto-curso/assets/148992172/fb17e1a3-02bd-45a8-aefc-ab7d56843e19)
+
+> * Adicionar comentário com descrição completa do que foi realizado de alteração ou criação;
+> * Reviewers - Adicionar quem vai revisar;
+> * Assigness - Autor da pull;
+> * Labels - Tags sobre a pull;
+> * Draft pull request - Manter sempre está opção.
+
+* Selecionar a opção `Draft pull request` e clica.
+
+## Fazendo o Merge
+
+![image](https://github.com/TatiScandarolli/projeto-curso/assets/148992172/1a8c1790-4a73-4087-aa32-d6f3b6abbded)
+
+* Selecionar a opção `Squash and merge` e clicar.
+
+![image](https://github.com/TatiScandarolli/projeto-curso/assets/148992172/3263040a-f586-477e-8c9b-e9a9057cf339)
+
+Finalizado, agora devemos rodar os comandos para deletar a branch local e remota.
+
+## Deletando branch local e remota
+
+Vamos rodar o comando para deletar remotamente `git push origin --delete nome-da-branch`
+
+Agora vamos mudar da branch local para main `git checkout main`
+
+Por fim, excluindo branch local `git branch -D nome-da-branch` 
